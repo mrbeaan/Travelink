@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/txt_bus"
+            android:text="Bus Name"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date" />
+
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_below="@id/txt_date"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hh:mm" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/from"
+            android:layout_below="@id/txt_bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From" />
+
+        <TextView
+            android:id="@+id/destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/from"
+            android:text="Destination" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_below="@id/destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price" />
+
+        <TextView
+            android:id="@+id/seat"
+            android:layout_below="@id/price"
+            android:text="Seat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/txt_from"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/txt_bus"
+            android:text="From"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_destination"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/from"
+            android:text="Destination"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_price"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/destination"
+            android:text="Price"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_seat"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/price"
+            android:text="Seat"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

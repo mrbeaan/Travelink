@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "805386008315",
+    "firebase_url": "https://travelink-ca5d1.firebaseio.com",
+    "project_id": "travelink-ca5d1",
+    "storage_bucket": "travelink-ca5d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805386008315:android:f765b4374b08b329",
+        "android_client_info": {
+          "package_name": "travelink.mobile.travelink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805386008315-p0dg6dbk6qgm74t2mnna8lgdv796hdp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "travelink.mobile.travelink",
+            "certificate_hash": "b2a87a034c7b65a0931b396d4ecfea37c79b0cd8"
+          }
+        },
+        {
+          "client_id": "805386008315-3lv6ccnkb1rib88n55uugcijhlapsa5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWuwEQ_jNF-sjWGOh5z-NG5XNYFc3oRRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805386008315-3lv6ccnkb1rib88n55uugcijhlapsa5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Travelink</string>
+
+
+    <string-array name="from">
+        <item>-- From --</item>
+        <item>Bandung</item>
+        <item>Jakarta</item>
+        <item>Bekasi</item>
+    </string-array>
+
+
+    <string-array name="destination">
+        <item>-- Destination --</item>
+        <item>Bandung</item>
+        <item>Jakarta</item>
+        <item>Bekasi</item>
+    </string-array>
+
+
+    <string-array name="seat">
+        <item>-- Seat --</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
